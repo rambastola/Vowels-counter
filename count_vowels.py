@@ -1,4 +1,3 @@
-
 def counter(user):
     '''
     Count number of vowels that is typed.
