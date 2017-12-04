@@ -3,7 +3,7 @@ def counter(user):
     '''
     Count number of vowels that is typed.
     :param user: user's input
-    :return:
+    :return:none
     '''
     listofvowels = []
     for i in user:
@@ -15,7 +15,7 @@ def file_counter (file):
     """
     checks for vowels in a .txt file a and prints how many are there.
     :param file:
-    :return:
+    :return:none
     """
     fileVowels = []
     for lines in file:
@@ -38,6 +38,4 @@ def main():
         filename = input("Type in your .txt file name ")
         file = open(filename, "r")
         file_counter(file)
-
-
 main()
