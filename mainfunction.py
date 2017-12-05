@@ -13,5 +13,5 @@ def main():
         filename = input("Type in your .txt file name ")
         file = open(filename, "r")
         file_counter(file)
-    print(letterscount())
+        letterscount()
 main()
